@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+
+# --- Environment ---
+.env
+.env.local
+.env.*.local
+
+# --- Local dev database ---
+*.db
+*.db-journal
+
+# --- Trained model weights ---
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# --- Local media / generated output ---
+storage/videos/*
+storage/frames/*
+storage/reports/*
+!storage/*/.gitkeep
+
+# --- Raw dataset downloads ---
+datasets/raw/
+
+# --- Logs ---
+*.log
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
